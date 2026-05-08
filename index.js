@@ -2,7 +2,7 @@ const { Client, GatewayIntentBits, REST, Routes, SlashCommandBuilder } = require
 const fetch = require('node-fetch');
 
 // ── CONFIGURAÇÕES ──────────────────────────────────────────
-const DISCORD_TOKEN = 'MTUwMjEyNTA2NDkxOTcxNjAxMQ.Grc7wl.3hGxj4CUHrptsgRBC3s2xWSMOTXRgk7rTHwQ5A';
+const DISCORD_TOKEN = process.env.DISCORD_TOKEN;
 const CLIENT_ID     = '1502125064919716011';
 const SUPABASE_URL  = 'https://zylwrtyzwufqnfkwzjvz.supabase.co';
 const SUPABASE_KEY  = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inp5bHdydHl6d3VmcW5ma3d6anZ6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzgxNDcyMDMsImV4cCI6MjA5MzcyMzIwM30.nFvYf4vIWmUxZkKLSQuEiaR6mmcGagNOMXf-b9gxN6o';
